@@ -436,7 +436,7 @@
 }
 
 .myCard {
-    height: 400px;
+    height: 450px;
     margin:2rem 0rem;
     width: 300px;
     border-radius:10px;
@@ -444,7 +444,7 @@
     position: relative;
     display: flex;
     justify-content: center;
-    text-align: center;
+    text-align: left;
     transition: 0.5s;
 }
 
