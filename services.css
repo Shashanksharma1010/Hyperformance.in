@@ -1,0 +1,42 @@
+/* Treatment for diseases section */
+.section-serv{
+    background-color: var(--BackgroundShade1);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 50px;
+    justify-content: center;
+    color:var(--shade);
+    align-items: center;
+    animation: suddenVisible 1s ease;
+}
+
+.section-serv div {
+    display: flex;
+    width: 350px;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 5px;
+    padding:10px;
+    margin: 10px;
+    background-color:var(--newShade2);
+    color:var(--shade);
+}
+
+.section-serv h1 {
+    padding:10px;
+    margin: 10px;
+    flex: 0 0 100%; /* flex-grow, flex-shrink, flex-basis */
+    color:var(--shade);
+}
+
+.section-serv div h4 {
+    padding: 10px;
+}
+
+.section-serv div #section-serv-logo {
+    background: var(--mainColor);
+    padding: 5px;
+    border-radius: 10px;
+}
+
