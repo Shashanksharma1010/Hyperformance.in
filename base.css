@@ -224,7 +224,6 @@ nav ul li a:hover {
     }
   }
 
-
 #serv-dropdown {
     flex-direction:row;
     gap:20px;
@@ -345,8 +344,6 @@ nav ul li a:hover {
     transition: opacity 1000ms linear;
     transition: all ease 0.5s;
 }
-
-
 
 
 
