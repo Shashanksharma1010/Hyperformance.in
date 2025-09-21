@@ -31,7 +31,7 @@
   <!-- Font -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 
   <!-- font awesome -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -49,23 +49,30 @@
 </head>
 
 <body>
+
+  <!-- Nav -->
   <div id="mobile-nav-menu" class="hide">
     <div class="menu-links">
       <a class="link" href="index.html">Home</a>
-      <a class="link" href="index.html#about">About</a>
+      <a class="link" href="about.html">About</a>
       <div style="padding:10px 70px;">
         <a href="services.html">Services</a>
         <img style="background-color: aqua; border-radius: 2px;" src="images/down-chevron.png" width="30px" id="serv-drop-mobile">
       </div>
-      <div class="serv-menu-dropdown hide">
-        <a class="link" href="Seo.html">SEO</a>
-        <a class="link" href="lead.html">Lead Generation</a>
-        <a class="link" href="android-ios.html">Ios/Android app development</a>
-        <a class="link" href="erp.html">ERP/CMS</a>
-        <a class="link" href="ecommerce.html">Ecommerce</a>
+      <div class="serv-menu-dropdown hide" style="background-color: black;">
+        <a class="link" href="Seo.html">Search Engine Optimization</a>
+        <a class="link" href="lead.html">Social Media Management</a>
+        <a class="link" href="performance.html">Performance Marketing</a>
+        <a class="link" href="erp.html">Next Gen AI Modelling</a>
+        <a class="link" href="website.html">Website Development</a>
+        <a class="link" href="ecommerce.html">E-commerce</a>
+        <a class="link" href="influencer.html">Influencer Marketing</a>
+        <a class="link" href="kit.html">Brank Kit Designing</a>
+
+
       </div>
       <a class="link" href="index.html#poses">Why Us?</a>
-      <a class="link" href="index.html#contact">Contact</a>
+      <a class="link" href="contact.html">Contact</a>
       <a class="link" href="https://wa.me/7503325365" target="_blank">Whatsapp</a>
       <a class="link" href="tel:+91-7503325365" target="_blank">Call</a>
     </div>
@@ -77,28 +84,31 @@
       <img src="images/Hyperformance.jpeg" class="logo">
       <ul>
         <li><a href="index.html">Home</a></li>
-        <li><a href="index.html#about">About</a></li>
+        <li><a href="about.html">About</a></li>
         <li>
           <a class="target" href="services.html">Services
             <div id="serv-drop" style="display: inline-block;">
               <img src="images/down-chevron.png" width="20px">
               <div id="serv-dropdown" class="target hide">
               <div>
+                <a href="AI.html">Next Gen AI Modelling</a>
                 <a href="Seo.html">Search Engine Optimization</a>
-                <a href="lead.html">Lead Generation</a>
+                <a href="lead.html">Social Media Management</a>
+                <a href="kit.html">Brank Kit Designing</a>
               </div>
               <div class="line"></div>
               <div>
-                <a href="android-ios.html">IOS/Android App development</a>
-                <a href="erp.html">ERP/CMS</a>
+                <a href="performance.html">Performance Marketing</a>
+                <a href="website.html">Website Development</a>
                 <a href="ecommerce.html">E-commerce</a>
+                <a href="influencer.html">Influencer Marketing</a>
               </div>
               </div>
             </div>
           </a>
         </li>
         <li><a href="index.html#poses">Why Us</a></li>
-        <li><a href="index.html#contact">Contact</a></li>
+        <li><a href="contact.html">Contact</a></li>
       </ul>
       <a href="https://wa.me/7503325365" target="_blank" class="nav-button">Let's Chat!</a>
       <button class="hamburger"><img src="images/menu.png" width="35px" alt="menu"></button>
@@ -122,14 +132,14 @@
     <div>
       <br>
       <!-- changed -->
-      <h4 style="color: white;">
-        We are a results-driven digital marketing agency helping brands grow online.  
-        Crafting high-impact digital marketing strategies tailored to your business goals.
+      <h4>  
+        Next-gen Marketing, Powered by AI.
       </h4>
+      <br>
+      <span style="color:white">We are a results-driven digital marketing agency helping brands grow online.</span>
       <p>
         <!-- <li>Crafting high-impact digital marketing strategies tailored to your business goals.</li> -->
         <li>Expertise in SEO, Website Designing, social media marketing, and content creation.</li>
-        <li>Creative ad designs that capture attention and drive conversions.</li>
         <li>Social media management with consistent, engaging, and brand-aligned content.</li>
       </p>
     
@@ -387,39 +397,6 @@
 
     </div>
   </section>
-
-  <!-- Contact -->
-  <section id="contact" class="contact-section">
-    <!-- Contact Info -->
-    <div class="contact-info">
-      <h1>Contact Us</h1>
-      <p>📍 Address: Mansarovar Park, Shahdara, Delhi:-110032, India</p>
-      <p>📧 Email: info@yourcompany.com</p>
-      <p>📞 Phone: +91 75033 25365</p>
-      <p>💬 Let’s connect and discuss how we can grow your brand online.</p>
-    </div>
-
-    <!-- Contact Form -->
-    <div class="contact-form">
-      <h1>Send a Message</h1>
-      <form action="#" method="POST">
-        <div>
-          <label for="name">Name</label>
-          <input type="text" id="name" name="name" required />
-        </div>
-        <div>
-          <label for="email">Email</label>
-          <input type="email" id="email" name="email" required />
-        </div>
-        <div>
-          <label for="message">Message</label>
-          <textarea id="message" name="message" rows="5" required></textarea>
-        </div>
-        <button type="submit">Send Message</button>
-      </form>
-    </div>
-  </section>
-
   
   <!-- Social links section -->
   <section class="social-links-wrapper">
@@ -454,10 +431,9 @@
     <div>
       <div>
         <img src="images/home.png" width="20px" alt="home image">  
-        <p>Residence</p>
-        <p>Mansarovar Park, Shahdara, Delhi:-110032, India</p>
+        <p>Delhi | Noida</p>
         <img src="images/call.png" width="20px" alt="call image"> 
-        <p>CONTACT: +91 7503325365</p>
+        <p>+91-9643534849</p>
       </div>
     </div>
   </footer>
