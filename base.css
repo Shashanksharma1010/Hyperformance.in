@@ -224,10 +224,7 @@ nav ul li a:hover {
     }
   }
 
-<<<<<<< HEAD
 
-=======
->>>>>>> 8218cc248ca6cac561c658e1ab7fa5f40f2c7726
 #serv-dropdown {
     flex-direction:row;
     gap:20px;
@@ -353,11 +350,8 @@ nav ul li a:hover {
 
 
 
-<<<<<<< HEAD
 
 
-=======
->>>>>>> 8218cc248ca6cac561c658e1ab7fa5f40f2c7726
 /* social links handle */
 
 /* using backgroundShade color theme  */
@@ -660,28 +654,6 @@ nav ul li a:hover {
     max-height: 550px;
 }
 
-.image-container-special img {
-    position: absolute;
-    max-width: 100%;   
-    height: 500px;
-}
-
-.image-container-special .image-1 {
-    top:200px;
-    left:0;
-    z-index: 1;
-}
-
-.image-container-special .image-2 {
-    top:200px;
-    right:0;
-    z-index: 1;
-}
-
-.mobile-image {
-    display: none;
-}
-
 
 .slider-container {
     display: flex;
@@ -750,14 +722,6 @@ nav ul li a:hover {
 
     .image-container {
     max-width: 100%;
-    }
-
-    .image-container-special .image-2, .image-container-special .image-1 {
-        display: none;
-    }
-
-    .mobile-image {
-        display: block;
     }
 }
 
