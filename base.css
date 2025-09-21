@@ -650,7 +650,7 @@ nav ul li a:hover {
 }
 
 .image-container img {
-    max-width: 700px;
+    max-width: 600px;
     max-height: 550px;
 }
 
@@ -722,6 +722,10 @@ nav ul li a:hover {
 
     .image-container {
     max-width: 100%;
+    }
+
+    .image-container img {
+        max-width: 300px;
     }
 }
 
