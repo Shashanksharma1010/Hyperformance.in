@@ -1,0 +1,63 @@
+/* Treatment for diseases section */
+.section-serv{
+    background: inherit;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 50px;
+    justify-content: center;
+    color:var(--shade);
+    align-items: center;
+    animation: suddenVisible 1s ease;
+}
+
+.section-serv div {
+    display: flex;
+    width: 350px;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border-radius: 5px;
+    padding:10px 2px;
+    margin: 10px;
+    background:var(--mainColor);
+    color:var(--shade);
+    box-shadow: 0 10px 10px 2px rgba(0,0,0,0.1);
+    animation: superCar 2s ease-in-out,
+    floatY 4s ease-in-out infinite 1s; 
+}
+
+.section-serv h1 {
+    padding:10px;
+    margin: 10px;
+    flex: 0 0 100%; /* flex-grow, flex-shrink, flex-basis */
+    color:var(--shade);
+}
+
+.section-serv div h4 {
+    padding: 10px;
+}
+
+.section-serv div #section-serv-logo {
+    background: var(--mainColor);
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.section-serv div a{
+    border-radius: 20px;
+}
+
+/* animation */
+@keyframes floatY {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-20px); }
+}
+@keyframes superCar {
+  0%   { transform: translateX(100vw) skewX(0deg); opacity: 0; }
+  20%  { transform: translateX(0) skewX(-15deg); opacity: 1; }
+  40%  { transform: translateX(0) skewX(15deg); opacity: 1; }
+  100% { transform: translateX(0) skewX(0deg); opacity: 1; }
+}
+
+
